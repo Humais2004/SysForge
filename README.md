@@ -36,25 +36,7 @@ C:\msys64\mingw64\bin\g++.exe -std=c++17 -fopenmp -O2 `
 
 ---
 
-## Project Structure
 
-```
-SysForge/
-├── README.md                    ← This file
-├── agent_smartscan_prompt.md    ← Agent instructions for Smart Scan feature
-├── agent_bugfix_prompt.md       ← Agent instructions for earlier bug fixes
-├── implementation.md            ← Implementation notes
-├── project_plan.md              ← Original project plan
-└── src/
-    ├── sysforge.cpp             ← ENTIRE application (single-file C++17)
-    ├── build.bat                ← Smart build script (never fails)
-    ├── sysforge.rc              ← Windows resource file (manifest embed)
-    ├── sysforge.manifest        ← UAC + Common Controls v6 manifest
-    ├── sysforge_res.o           ← Pre-compiled resource object
-    └── sysforge.exe             ← Final executable (run this)
-```
-
----
 
 ## Architecture Overview
 
