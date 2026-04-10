@@ -1,0 +1,11 @@
+*.md
+*.zip
+*.pdf
+*.docx
+*.exe
+*.obj
+*.pdb
+*.ilk
+.vscode/
+build/
+*.o
